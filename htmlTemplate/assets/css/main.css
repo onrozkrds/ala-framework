@@ -1,0 +1,77 @@
+/*!
+/*------------------------------------------------------------------//
+	Favorites														
+	.value(@value) { parameter: @value; parameter: @value; }	    
+//------------------------------------------------------------------*/
+/* Common Width & Height || Ortak Width & Height */
+/* Opacity || Saydamlık */
+/* Transition || Geçiş */
+/* Grandient */
+/* Scale */
+/* Skew */
+/* Rotate */
+/* Black & White || Siyah & Beyaz */
+/* Rotate & Scale Together || Rotate ve Scale Birlikte */
+/*------------------------------------------------------------------//
+	Other:  														
+//------------------------------------------------------------------*/
+* {
+  outline: none;
+}
+ul {
+  list-style-type: none !important;
+  margin-bottom: 0 !important;
+}
+main ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+img {
+  pointer-events: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+/*------------------------------------------------------------------//
+	Bootstrap Edit:  														
+//------------------------------------------------------------------*/
+.row {
+  margin: 0;
+  width: 100%;
+}
+.right {
+  float: right !important;
+  display: block;
+}
+.left {
+  float: left !important;
+  display: block;
+}
+.no-background,
+.container {
+  background: none !important;
+  position: relative !important;
+}
+.clear {
+  clear: both;
+  display: block;
+}
+.full-image img {
+  width: 100% !important;
+  display: block !important;
+  height: auto !important;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.no-left {
+  padding-left: 0 !important;
+}
+.no-right {
+  padding-right: 0 !important;
+}
+.mobileClear {
+  clear: both;
+  display: none;
+}
